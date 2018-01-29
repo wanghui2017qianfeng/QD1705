@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style type="text/css">
+            .icon {
+                width: 1em; height: 1em;
+                vertical-align: -0.15em;
+                fill: currentColor;
+                overflow: hidden;
+            }
+            </style>
+        <script src="../js/iconfont.js"></script>
+        <link rel="stylesheet" href="css/productdetail.min.css"/>
+        <script src = "../js/require.js" async ="true" defer data-main = "../js/main"></script>
+    </head>
+    <body>
+        <!-- 商品详情页 -->
+        <!-- 顶部悬浮 -->
+        <div class="fixed-buy" style="margin-top: 0px;">
+        <div class="fixed-box">
+            <div class="fr">
+                <span class="fl">手机购买</span>
+                <div class="fl qrcode fixed_qrcode1">
+                    <span class = "erwei1">
+                        <svg class="icon" aria-hidden="true" font-size="20px" >
+                            <use xlink:href="#icon-QR"></use>
+                        </svg>
+                    </span>
+                </div>
+                <span id="fixedBuy">
+                    <a href= "order.html"  binder-event="click|toFastBuy" class="buy" id="fixedFastBuy">立即购买</a>
+                </span>
+                <!--<a href="javascript:;" class="buy" id="fixedFastBuy">立即购买</a>-->
+            </div>
+           <div class="fl">
+                <span >49A860U</span>&nbsp;&nbsp;
+                    <strong class="red">2799.00元</strong>&nbsp;&nbsp;
+                    <span class="fr line-through ">RMB：3799.00元</span>
+            </div>
+        </div>
+         <div class="fixed-code1">
+                        <img class="fl1 pQrCode" src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQF88DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeFQzVTRyVWRheFUxMDAwMGcwN1IAAgRxL8JZAwQAAAAA">
+                        <p class="code-text1 fl f1" style="line-height:1.5">关注公众号<br/>一键下单购买</p>
+                    </div>
+         </div>
+
+
+
+
+
+         <!-- 右边客服 -->
+        <div class = "kefu">
+            <a href="" class = "pp">
+                <svg class="icon" aria-hidden="true" >
+                    <use xlink:href="#icon-kefu"></use>
+                </svg>
+            </a>
+            <a href="" class = "tt">
+                <svg class="icon" aria-hidden="true" >
+                    <use xlink:href="#icon-jiantoushang"></use>
+                </svg>
+            </a>
+        </div>
+
+
+        <!-- 头部列表 -->
+        <div class = "tcl1">
+            <div class = "top">
+                <ul class= "ul1">
+                    <li><a href = "http://news.tcl.com/English.php/index/index.html">English</a></li>
+                    <li><a href = "http://www.tcl.com/group/news/index">TCL新闻</a></li>
+                    <li><a href = "http://www.pengpengmall.com/">员工内购</a></li>
+                    <li><a href = "http://www.tcl.com/dealer/toLogin">企业采购</a></li>
+                    <li><a href = "http://www.tcl.com/dealer/toLogin">经销商之家</a></li>
+                    <li><a href = "http://www.ffalcon.my7v.com/">雷鸟</a></li>
+                    <li><a href = "http://fans.tcl.com/uec">用户体验中心</a></li>
+                </ul>
+                <ul class = "ul2">
+                    <li class = "li1">
+                        <a href = "">微信商城</a>
+                        <div class = "weixin">
+                            <img src = "http://www.tcl.com/app/images/wechat.jpg"/>
+                            <p>关注公众号<br/>一键下单购买</p>
+                        </div>
+                    </li>
+
+                    <li><a href = "order.html">购物车(<i class = "sc_num">0</i>)</a></li>
+                    <li><a href = "register.html">注册</a></li>
+                    <li><a href = "login.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 商品头部logo部分 -->
+        <div class = "tcl2">
+            <div class = "title">
+                <div class = "logo">
+                    <a href="index.html">
+                        <img src = "../image/logo.png"/>
+                    </a>
+                </div>
+                <ul class = "ul1">
+                    <li class = "li1"><a href = "index.html">首页</a></li>
+                    <li class = "li1"><a href = "productlist.html">电视</a></li>
+                    <li class = "li1"><a href = "">手机</a></li>
+                    <li class = "li1"><a href = "">空调</a></li>
+                    <li class = "li1"><a href = "">冰箱</a></li>
+                    <li class = "li1"><a href = "">洗衣机</a></li>
+                    <li class = "li1"><a href = "">健康电器</a></li>
+                    <li class = "bg"></li>
+                </ul>
+
+                <ul class = "ul2">
+                    <li class = "li1"><a href = "http://www.tcl.com/pages/service-home/index.html">服务</a></li>
+                    <li><a href = "http://fans.tcl.com/">社区</a></li>
+                    <li><a href = "http://hy.tcl.com/">积分兑换</a></li>
+                </ul>
+
+                <span class = "search">
+                    <input class = "sear" placeholder = "电视" />
+                    <span class = "font">
+                        <img src = "../image/sear.jpg"/>
+                    </span>
+                </span>
+            </div>
+        </div>
+        <!--  下拉的商品列表-->
+        <div class = "blank">
+               <!-- <div class = "move"> -->
+                <!-- 划入下拉菜单 -->
+                    <ul class = "goods_bottom">
+                        <!-- <li>
+                            <a href="http://www.tcl.com/tv/3130d103ed86494193c0b57d4df13291">
+                                <span>
+                                    <img src="http://s0.mall.tcl.com/group1/M00/03/A5/CkgblloI9Q6AS6EHAADoPC7qA8o772.jpg" alt="">
+                                </span>
+                                <p class = "dec">65A880C 65英寸4K曲面电视</p>
+                                <p class = "pri">5999.00元</p>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+        </div>
+        <!-- 导航 -->
+        <div class = "nav">
+            <div class = "box1">
+                <div class = "box11">
+                    <a href="index.html">TCL官网 > </a>
+                    <a href="productlist.html">电视 > </a>
+                    <a href="">49A860U 49英寸4K智能电视</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- 电视详情 -->
+    <div class = "tv_box">
+
+        <div class ="tv_cont">
+            <div id="normal2">
+                <div id="magnify">
+                    <img src="http://img.mall.tcl.com/dev1/0/000/366/0000366650.fid">
+                </div>
+            </div>
+            <div class = "tv_left">
+                <div class = "imgload">
+                    <div class = "bannerimg">
+                        <div id="glass"></div>
+                        <div id="normal" class = "item active">
+                            <img src="http://img.mall.tcl.com/dev1/0/000/366/0000366650.fid"/>
+                        </div>
+                        <div id="normal" class = "item ">
+                            <img src="http://img.mall.tcl.com/dev1/0/000/366/0000366676.fid"/>
+                        </div>
+                        <div id="normal" class = "item">
+                            <img src="http://img.mall.tcl.com/dev1/0/000/366/0000366670.fid"/>
+                        </div>
+                        <div id="normal" class = "item">
+                            <img src="http://img.mall.tcl.com/dev1/0/000/366/0000366673.fid"/>
+                        </div>
+                        <div id="normal" class = "item">
+                            <img src="http://img.mall.tcl.com/dev1/0/000/366/0000366679.fid"/>
+                        </div>
+                    </div>
+
+                    <div class = "imglist">
+                        <span class = "radius active"><img src="http://img.mall.tcl.com/dev1/0/000/366/0000366650.fid" alt=""></span>
+                        <span class = "radius"><img src="http://img.mall.tcl.com/dev1/0/000/366/0000366676.fid" alt=""></span>
+                        <span class = "radius"><img src="http://img.mall.tcl.com/dev1/0/000/366/0000366670.fid" alt=""></span>
+                        <span class = "radius"><img src="http://img.mall.tcl.com/dev1/0/000/366/0000366673.fid" alt=""></span>
+                        <span class = "radius"><img src="http://img.mall.tcl.com/dev1/0/000/366/0000366679.fid" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右边 -->
+            <div class = "tv_right1">
+                <div class = "text1">
+                    <h1 class = "name1">
+                        <span class = "title_1">49A860U 49英寸4K智能电视</span>
+                    </h1>
+                     <div class = "desc1">
+                        <p class = "p1_text">
+                            <a href="">
+                                <font style="font: bold; color: red">【预售1月21-31日焕新嘉年华，2月初安排发货！！！参加全场满额活动可返现300元，详情咨询客服，铁粉会员积分抵现更优惠，限时抢购，不容错过】</font>
+                            </a>
+                        </p>
+                        <span class = "star">
+                            <svg class="icon" aria-hidden="true" >
+                                <use xlink:href="#icon-xingxing"></use>
+                            </svg>
+                            收藏
+                        </span>
+                        <div class = "jifen">
+                            <div class ="fl">可获取积分: 2799</div>
+                        </div>
+                     </div>
+                </div>
+
+                <div class = "render">
+                    <div class = "price_box">
+                        <div class="fr qrcode">
+                            <span class = "erwei">
+                                <svg class="icon" aria-hidden="true" font-size="20px" >
+                                    <use xlink:href="#icon-QR"></use>
+                                </svg>
+                            </span>
+                            &nbsp;&nbsp;手机购买
+                                <div class = "san"></div>
+                                <div class="fixed-code">
+                                <img class="fl pQrCode" src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQF88DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeFQzVTRyVWRheFUxMDAwMGcwN1IAAgRxL8JZAwQAAAAA">
+                                    <p class="code-text fl" style="line-height:1.5">关注公众号<br>一键下单购买</p>
+                                </div>
+                        </div>
+                        <p>
+                            <strong class="bold">促销价：</strong>
+                            <i class="red"><em class="font30">2799.00</em>元</i>
+                            <span class="fr line-through productBasePrice">RMB：3799.00元</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class = "group">
+                    <div class= "xilie">A860U系列</div>
+                    <div class = "options">
+                        <span class = "product">65英寸</span>
+                        <span class = "product">55英寸</span>
+                        <span class = "product active">49英寸</span>
+                        <span class = "product">43英寸</span>
+                    </div>
+                </div>
+
+                <div class = "buy">
+                    <div class = "buy_num">
+                        <input type="text" class = "num1" value = "1">
+                        <div class ="count">
+                            <span class ="add">
+                                <svg class="icon" aria-hidden="true" font-size="20px" >
+                                    <use xlink:href="#icon-shang"></use>
+                                </svg>
+                            </span>
+                            <span class = "cut">
+                                <svg class="icon" aria-hidden="true" font-size="20px" >
+                                    <use xlink:href="#icon-xia"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div id = "buy_sub" class = "buy_sub">
+                        <a code = "0" href="order.html">立即购买</a>
+                    </div>
+                </div>
+                <!-- 地址 -->
+                <div class = "address">
+                    <div class = "juti">
+                        <span class="span1">配送到:&nbsp;&nbsp;</span>
+                        <ul class="dizhi">
+                            <li>安徽省</li>
+                            <li>安庆市</li>
+                            <li>枞阳县</li>
+                            <li>县城内</li>
+                            <li>&nbsp;v</li>
+                        </ul>
+                        <span class = "span2">&nbsp;&nbsp;有货</span>
+                    </div>
+                </div>
+                <!-- 地址列表 -->
+                <div class = "add_list">
+                    <div class = "opt_all">
+                        <ul class = "first">
+                            <li class = "hover"><span>安徽省</span></li>
+                            <li><span>请选择城市</span></li>
+                            <li><span>请选择地区</span></li>
+                            <li><span>请选择街道</span></li>
+                        </ul>
+                        <div class = "sheng active" >
+                            <div class = "province_list">
+                                <ul id = "provinces">
+                                    <li provinceid = "01">安徽省</li>
+                                    <li provinceid = "02">北京</li>
+                                    <li provinceid = "03">福建省</li>
+                                    <li provinceid = "04">甘肃省</li>
+                                    <li provinceid = "05">广东省</li>
+                                    <li provinceid = "06">广西壮族自治区</li>
+                                    <li provinceid = "07">贵州省</li>
+                                    <li provinceid = "08">海南省</li>
+                                    <li provinceid = "09">河北省</li>
+                                    <li provinceid = "10">河南省</li>
+                                    <li provinceid = "11">黑龙江省</li>
+                                    <li provinceid = "12">安徽省</li>
+                                    <li provinceid = "13">北京</li>
+                                    <li provinceid = "14">福建省</li>
+                                    <li provinceid = "15">甘肃省</li>
+                                    <li provinceid = "16">广东省</li>
+                                    <li provinceid = "17">广西壮族自治区</li>
+                                    <li provinceid = "18">贵州省</li>
+                                    <li provinceid = "19">海南省</li>
+                                    <li provinceid = "20">河北省</li>
+                                    <li provinceid = "21">河南省</li>
+                                    <li provinceid = "22">黑龙江省</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class = "sheng ">
+                            <div class = "province_list">
+                                <ul id = "provinces">
+                                    <li provinceid = "01">安庆市</li>
+                                    <li provinceid = "02">蚌埠市</li>
+                                    <li provinceid = "03">亳州市</li>
+                                    <li provinceid = "04">池州市</li>
+                                    <li provinceid = "05">滁州市</li>
+                                    <li provinceid = "06">阜阳市</li>
+                                    <li provinceid = "07">合肥市</li>
+                                    <li provinceid = "08">淮北市</li>
+                                    <li provinceid = "09">淮南市</li>
+                                    <li provinceid = "10">黄山市</li>
+                                    <li provinceid = "11">六安市</li>
+                                    <li provinceid = "12">马鞍市</li>
+                                    <li provinceid = "13">铜陵市</li>
+                                    <li provinceid = "14">芜湖市</li>
+                                    <li provinceid = "15">宿州市</li>
+                                    <li provinceid = "16">宣城市</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class = "sheng">
+                            <div class = "province_list">
+                                <ul id = "provinces">
+                                    <li provinceid = "01">枞阳县</li>
+                                    <li provinceid = "02">大观区</li>
+                                    <li provinceid = "03">怀宁县</li>
+                                    <li provinceid = "04">潜山县</li>
+                                    <li provinceid = "05">太湖县</li>
+                                    <li provinceid = "06">桐城市</li>
+                                    <li provinceid = "07">望江县</li>
+                                    <li provinceid = "08">宿松县</li>
+                                    <li provinceid = "09">宜秀区</li>
+                                    <li provinceid = "10">迎江区</li>
+                                    <li provinceid = "11">岳西县</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class = "sheng">
+                            <div class = "province_list">
+                                <ul id = "provinces">
+                                    <li provinceid = "01">县城内</li>
+                                    <li provinceid = "02">经济开发区</li>
+                                    <li provinceid = "03">白湖乡</li>
+                                    <li provinceid = "04">白梅乡</li>
+                                    <li provinceid = "05">陈瑶湖镇</li>
+                                    <li provinceid = "06">枞阳镇</li>
+                                    <li provinceid = "07">凤仪乡</li>
+                                    <li provinceid = "08">浮山镇</li>
+                                    <li provinceid = "09">官埠桥镇</li>
+                                    <li provinceid = "10">横埠镇</li>
+                                    <li provinceid = "11">会宫镇</li>
+                                    <li provinceid = "12">金社乡</li>
+                                    <li provinceid = "13">老洲镇</li>
+                                    <li provinceid = "14">欧山镇</li>
+                                    <li provinceid = "15">麒麟镇</li>
+                                    <li provinceid = "16">钱铺镇</li>
+                                    <li provinceid = "17">钱桥镇</li>
+                                    <li provinceid = "18">汤沟镇</li>
+                                    <li provinceid = "19">铁桐乡</li>
+                                    <li provinceid = "20">项铺镇</li>
+                                    <li provinceid = "21">雨坛乡</li>
+                                    <li provinceid = "22">周潭镇</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <span class = "delete">
+                        <svg class="icon" aria-hidden="true" font-size="20px" >
+                            <use xlink:href="#icon-cha"></use>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- 详细内容 -->
+        <div class = "details_all">
+        <div id = "topDetails"></div>
+            <div class = "details_l">
+            <!-- 详情介绍 -->
+                <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351475.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351478.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351476.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351477.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351480.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351479.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351483.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351481.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351482.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351484.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351485.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351489.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351486.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351488.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351487.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351496.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351492.fid" alt="">
+                </p>
+                 <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351490.fid" alt="">
+                </p>
+                <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351491.fid" alt="">
+                </p>
+                <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351493.fid" alt="">
+                </p>
+                <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351494.fid" alt="">
+                </p>
+                <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351497.fid" alt="">
+                </p>
+
+                <p>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351495.fid" alt="">
+                </p>
+                <!-- 规格参数 -->
+                <p class ="1">
+                    <a name="productAttribute"></a>
+                    <img src="http://img.mall.tcl.com/dev1/0/000/351/0000351498.fid" alt="">
+                    <a name="productAttribute"></a>
+                </p>
+            </div>
+
+            <!-- 服务政策 -->
+             <div id = "policy"></div>
+            <div class = "policy">
+
+                <ul class = "service_tab">
+                    <li>物流配送</li>
+                    <li class = "active">商品签收</li>
+                    <li>产品安装</li>
+                    <li>发票</li>
+                    <li>售后服务</li>
+                </ul>
+                <div class = "intro">
+                    <div class="qianshou active">
+                        <p><span>1. 签收须知：</span></p>
+                        <p><span>大家电产品贵重，为避免因验货问题使您在购物及使用的过程中有不好的体验，请您在签收时务必开箱验货。</span></p>
+                        <p><span>2. 签收问题注意事项：</span></p>
+                        <p><span>①收货时，先检查机器外包装情况，如出现褶皱、压痕、破损等情况，请直接拒收，（如顾客正常签收造成的损失，需自行承担责任）。</span></p>
+                        <p><span>②若外包装完好，亦须要求物流人员开箱验机（不支持通电），检查外屏是否完好，若有屏裂情况，请直接拒收，拒收后第一时间联系在线客服。</span></p>
+                        <p><span>③若非本人签收，请务必告知以上签收注意事项；</span></p>
+                        <p><span>④签收后请务必在七天内通电验机，如有质量问题须在第一时间联系在线客服。</span></p>
+                        <p><span>⑤开箱后，请将包装箱及其他附件至少保留15天，以备需要做退换货处理时放置机器，以及作为退换货的凭证之一。</span></p>
+                        <p><span>包装箱签收标准和识别：</span></p>
+                        <ul class="biaozhun">
+                            <li>
+                                <p><br></p>
+                                <p><img src="http://www.tcl.com/static/kuyu/common/img/y_service_1.jpg"></p>
+                                <p><br></p>
+                                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                顶底部划伤破损<br>达到货损标准，且穿透包装箱</span></p>
+                                <p><br></p>
+                            </li>
+                            <li>
+                                <p><br></p>
+                                <p><img src="http://www.tcl.com/static/kuyu/common/img/y_service_2.jpg"></p>
+                                <p><br></p>
+                                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                正侧面划伤破损<br>达到货损标准，且穿透一层包装纸</span></p>
+                                <p><br></p>
+                            </li>
+                            <li>
+                                <p><br></p>
+                                <p><img src="http://www.tcl.com/static/kuyu/common/img/y_service_3.jpg"></p>
+                                <p><br></p>
+                                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                磨损，淋湿正侧面<br>&gt;50cm,底部&gt;100cm</span></p>
+                                <p><br></p>
+                            </li>
+                            <li>
+                                <p><br></p>
+                                <p><img src="http://www.tcl.com/static/kuyu/common/img/y_service_4.jpg"></p>
+                                <p><br></p>
+                                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                包装带断裂&gt;2根</span></p>
+                                <p><br></p>
+                            </li>
+                            <li>
+                                <p><br></p>
+                                <p><img src="http://www.tcl.com/static/kuyu/common/img/y_service_5.jpg"></p>
+                                <p><br></p>
+                                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;正面有磕碰、挤压痕迹<br>变形皱褶&gt;10cm,凹陷深度&gt;4cm</span></p>
+                                <p><br></p>
+                            </li>
+                            <li>
+                                <p><br></p>
+                                <p><img src="http://www.tcl.com/static/kuyu/common/img/y_service_6.jpg"></p>
+                                <p><br></p>
+                                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                胶带，断裂，漏封</span></p>
+                                <p><br></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- 常见问题 -->
+            <div id="question">
+                <section class="container question_detial">
+                    <h2 class="procuct_title">常见问题</h2>
+                    <div id="questionitem" align="center">
+                        <table>
+                            <tbody>
+                                <tr class="firstRow">
+                                <td>
+                                    <p><span>付款后什么时候发货，送上门吗？</span></p>
+                                    <p><span><br>
+                                    </span></p>
+                                    <p><span class= "span1" >您好，支付后我们将会在72小时内发出，3-7日送达；如有产品补货在途、物流无法送达等特殊情况，将会及时与您联系。</span></p>
+                                    <p><br></p>
+
+                                </td>
+                                <td>
+                                    <p><br></p>
+                                    <p><span>配挂架吗？安装要不要收费？</span></p>
+                                    <p><br></p>
+                                    <p><span class= "span1" >您好，电视标配的是座架，
+                                    <span class= "span1">工程师上门安装底座收取30-50元，安装挂架收取90-150元不等，由于墙体及区域不同，具体费用以当地售后为准，预约热线
+                                    <span class= "span1" >4008-123456。
+                                    </span>
+                                    </span>
+                                    </span>
+                                    </p>
+                                    <p><br></p>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td >
+                                <p><br></p>
+                                    <p><span>有发票吗？</span></p>
+                                    <p><br></p>
+                                    <p><span class= "span1" >您好，2016年6月28日0点起，购物将开具电子发票，抬头默认为收件人姓名，发货后可登陆www.chaxunfapiao.com 输入订单编号，查询下载，如需开具专用增值税发票，请在付款前联系在线客服。</span></p>
+                                    <p><br></p>
+                                </td>
+                                <td>
+                                    <p><span>收货要注意什么？怎么保修？</span></p>
+                                    <p><br></p>
+                                    <p><span class= "span1">签收时务必确保外包装完好，否者请协商开箱验机或联系商城客服并拒收。产品使用&amp;质量问题，在第一时间联系在线客服，或拨打TCL售后服务热线：4008-123456 咨询预约。</span></p>
+                                    <p><br></p>
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p><br></p>
+                    </div>
+                </section>
+            </div>
+             <div id = "comment"></div>
+            <div class = "comment">
+
+                <div class ="com_left">
+                    <p>与描述相符<strong>5</strong></p>
+                    <ul class = "xing">
+                        <li>
+                             <svg class="icon" aria-hidden="true" >
+                                <use xlink:href="#icon-xingxingshixin"></use>
+                            </svg>
+                        </li>
+                        <li>
+                             <svg class="icon" aria-hidden="true" >
+                                <use xlink:href="#icon-xingxingshixin"></use>
+                            </svg>
+                        </li>
+                       <li>
+                             <svg class="icon" aria-hidden="true" >
+                                <use xlink:href="#icon-xingxingshixin"></use>
+                            </svg>
+                        </li>
+                        <li>
+                             <svg class="icon" aria-hidden="true" >
+                                <use xlink:href="#icon-xingxingshixin"></use>
+                            </svg>
+                        </li>
+                        <li>
+                             <svg class="icon" aria-hidden="true" >
+                                <use xlink:href="#icon-xingxingshixin"></use>
+                            </svg>
+                        </li>
+                    </ul><br/><br/>
+                    <p>已有25人评价</p>
+                </div>
+                <div class = "right">
+                    <div class="comm-right tx-left">
+                        <p class="comm-title">最新好评</p>
+                        <table class="comm-table" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td class="user-img"><div class = "ren"><img src="../image/default.png"></div></td>
+                                <td class="tx-left">1***6</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="2" class="tx-left">   <p class="tab-mar">都不错，售后服务赞！就是安装支架与原来对不上，又打了四个孔</p></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="tx-left">2018-01-02</td>
+                                <td class="text-r"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="reply-title">
+                    <ul class="reply-tab">
+                        <li class="reply-item active">
+                        全部(25)
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="reply-list commentList">
+                    <table class="comm-table" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td class="user-img"><img src="../image/default.png">
+                                </td>
+                                <td>1***6
+                                    <span class="fr">2018-01-02</span>
+                                </td>
+                                <td class="user-star">
+                                <ul class = "xing">
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                   <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td></td>
+                                <td>
+                                    <p class="tab-mar">都不错，售后服务赞！就是安装支架与原来对不上，又打了四个孔</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="comm-child">
+                                    <p class="child-img">
+                                        <img src="../image/y_recomd5.jpg">
+                                        <span class="red">官方回复</span>
+                                        <span class="fr">2018-01-02</span>
+                                    </p>
+                                    <p class="child-img">感谢您对TCL官网的支持，支架与原来的位置对不上，打孔不可避免，最重要的还是安装牢固哦，祝您观影愉快！
+                                    </p>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                 <div class="reply-list commentList">
+                    <table class="comm-table" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td class="user-img"><img src="../image/default.png">
+                                </td>
+                                <td>1***6
+                                    <span class="fr">2018-01-02</span>
+                                </td>
+                                <td class="user-star">
+                                <ul class = "xing">
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                   <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td></td>
+                                <td>
+                                    <p class="tab-mar">都不错，售后服务赞！就是安装支架与原来对不上，又打了四个孔</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="comm-child">
+                                    <p class="child-img">
+                                        <img src="../image/y_recomd5.jpg">
+                                        <span class="red">官方回复</span>
+                                        <span class="fr">2018-01-02</span>
+                                    </p>
+                                    <p class="child-img">感谢您对TCL官网的支持，支架与原来的位置对不上，打孔不可避免，最重要的还是安装牢固哦，祝您观影愉快！
+                                    </p>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                 <div class="reply-list commentList">
+                    <table class="comm-table" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td class="user-img"><img src="../image/default.png">
+                                </td>
+                                <td>1***6
+                                    <span class="fr">2018-01-02</span>
+                                </td>
+                                <td class="user-star">
+                                <ul class = "xing">
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                   <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td></td>
+                                <td>
+                                    <p class="tab-mar">都不错，售后服务赞！就是安装支架与原来对不上，又打了四个孔</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="comm-child">
+                                    <p class="child-img">
+                                        <img src="../image/y_recomd5.jpg">
+                                        <span class="red">官方回复</span>
+                                        <span class="fr">2018-01-02</span>
+                                    </p>
+                                    <p class="child-img">感谢您对TCL官网的支持，支架与原来的位置对不上，打孔不可避免，最重要的还是安装牢固哦，祝您观影愉快！
+                                    </p>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                 <div class="reply-list commentList">
+                    <table class="comm-table" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td class="user-img"><img src="../image/default.png">
+                                </td>
+                                <td>1***6
+                                    <span class="fr">2018-01-02</span>
+                                </td>
+                                <td class="user-star">
+                                <ul class = "xing">
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                   <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                         <svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-xingxingshixin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td></td>
+                                <td>
+                                    <p class="tab-mar">都不错，售后服务赞！就是安装支架与原来对不上，又打了四个孔</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="comm-child">
+                                    <p class="child-img">
+                                        <img src="../image/y_recomd5.jpg">
+                                        <span class="red">官方回复</span>
+                                        <span class="fr">2018-01-02</span>
+                                    </p>
+                                    <p class="child-img">感谢您对TCL官网的支持，支架与原来的位置对不上，打孔不可避免，最重要的还是安装牢固哦，祝您观影愉快！
+                                    </p>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="padding-box">
+                <div class="padding clearmar">
+                    <span class="prev" disabled="" style="background:#fff"><</span>
+                    <span class="item active" title="第1页">1</span>
+                    <span class="item " title="第2页">2</span>
+                    <span class="item " title="第3页">3</span>
+                    <span class="item " title="第4页">4</span>
+                    <span class="item " title="第5页">5</span>
+                    <span class="next" style="background:#fff">></span>
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="details-r" >
+                <ul>
+                    <li class="item1 ">
+                        <a href="#topDetails">
+                            <span class="dage"></span>
+                        详情介绍
+                        </a>
+                    </li>
+                    <li class="item1 active" style="" id="checkIfProductAttribute">
+                        <a href="#productAttribute">
+                        <span class="dage"></span>
+                        规格参数
+                        </a>
+                    </li>
+
+                    <li class="item1">
+                        <a href="#policy">
+                        <span class="dage">
+                        </span>服务政策</a>
+                    </li>
+                    <li class="item1">
+                        <a href="#question">
+                        <span class="dage"></span>常见问题
+                        </a>
+                    </li>
+                    <li class="item1" id="commenttap">
+                        <a href="#comment"><span class="dage"></span>晒单评价
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <div class = "connect">
+            <ul class = "help">
+                <li>帮助中心</li>
+                <li><a href="">购物指南</a></li>
+                <li><a href="">支付方式</a></li>
+                <li><a href="">配送方式</a></li>
+                <li><a href="">交易条款</a></li>
+            </ul>
+            <ul class = "serve">
+                <li>服务支持</li>
+                <li><a href="">售后服务</a></li>
+                <li><a href="">自助服务</a></li>
+                <li><a href="">进度查询</a></li>
+                <li><a href="">用户体验中心</a></li>
+            </ul>
+            <ul class = "user">
+                <li>客户服务</li>
+                <li><a href="">内购平台</a></li>
+                <li><a href="">大宗采购</a></li>
+                <li><a href="">经销商之家</a></li>
+                <li><a href="">十分到家</a></li>
+            </ul>
+            <ul class = "our">
+                <li>关注我们</li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">官方微博</a></li>
+                <li><a href="">铁粉社区</a></li>
+            </ul>
+            <ul class = "play">
+                <li>应用服务</li>
+                <li><a href="">雷鸟</a></li>
+                <li><a href="">欢网</a></li>
+                <li><a href="">金融</a></li>
+                <li><a href="">教育</a></li>
+                <li><a href="">全球播</a></li>
+                <li><a href="">智能家居</a></li>
+            </ul>
+            <ul class = "erweima">
+                <li>TCL官网商城及二维码</li>
+                <li><img src="http://www.tcl.com/app/images/wechat.jpg"/></li>
+            </ul>
+            <div class = "phone">
+                <p>4 0 0 8 - 1 2 3 4 5 6</p>
+                <p>(24小时在线，仅收市话费)</p>
+               <div>
+                    <a class ="pep" href="http://www.tcl.com/pages/service/customerServiceKuyu.html">
+                        <a href="" class = "pp1">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-kefu"></use>
+                            </svg>
+                        </a>
+                    24小时在线客服
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最后 -->
+        <div class = "tcl_last">
+            <div class = "footer">
+                <ul class = "last">
+                    <li><a href="http://www.tcl.com/group/companyInfo/index">关于TCL</a></li>
+                    <li><a href="http://www.tcl.com/group/investors/index">投资者关系</a></li>
+                    <li><a href="http://www.tcl.com/group/societyDuty/index">社会责任</a></li>
+                    <li><a href="http://www.tcl.com/group/news/index">新闻中心</a></li>
+                    <li><a href="http://www.tcl.com/group/recruitment/index">热才招聘</a></li>
+                    <li><a href="http://www.tcl.com/group/companyInfo/slipPath?type=6">成员网站</a></li>
+                </ul><br/>
+                <p class = "p1"><a href="">©2010-2016 TCL CORPORATION All Rights Reserved. TCL集团股份有限公司版权所有 粤ICP备05040863号</a>
+                    <ul class = "p_left">
+                        <li><a href="http://www.tcl.com/pages/low/content.html">使用条款</a></li>
+                        <li><a href="http://www.tcl.com/group/companyInfo/slipPath?type=5">法律声明</a></li>
+                        <li><a href="http://www.tcl.com/group/companyInfo/slipPath?type=4">隐私保护</a></li>
+                    </ul>
+                    <ul class = "p_right">
+                        <li><a href="http://www.tcl.com/pages/index/index.html">中文简体</a></li>
+                        <li><a href="http://news.tcl.com/English.php/index/index.html">English</a></li>
+                    </ul>
+                </p><br/>
+                <p class = "p2"><img src="http://www.tcl.com/app/images/beian.png" alt="">
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44133002100088">粤网公安备案44133002100088号</a>
+                </p>
+                <div class = "pic_f">
+                    <img src="http://www.tcl.com/app/images/credibility.png" alt="">
+                    <img src="http://wljg.gdgs.gov.cn/upload/image/20141126/20141126002933.png" alt="">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

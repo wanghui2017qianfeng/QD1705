@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/register.min.css"/>
+        <style type="text/css">
+            .icon {
+               width: 1em; height: 1em;
+               vertical-align: -0.15em;
+               fill: currentColor;
+               overflow: hidden;
+               /* font-size:30px;*/
+            }
+            </style>
+        <script src="../js/iconfont.js"></script>
+        <script src = "../js/require.js" async ="true" defer data-main = "../js/main"></script>
+    </head>
+    <body>
+        <!-- 注册 -->
+        <div class = "top">
+            <div class = "logo">
+                <a href="index.html">
+                    <img src="http://user.tcl.com/img/logo.png" alt="">
+                </a>
+            </div>
+            <span calss = "denglu">TCL账号登录</span>
+        </div>
+
+        <!-- 大图 -->
+        <div class = "banner">
+            <img class = "pic" src="http://user.tcl.com/img/back.jpg" alt="">
+            <div class = "msg">公告：为提高用户体验，系统已对您在TCL官网、铁粉社区、积分商城上的基础信息做了合并，您可以在2018年2月28日前修改和确认</div>
+
+         <!-- 注册页面 -->
+            <div class = "register">
+                <p class = "content">注册TCL账号</p>
+
+                <div class = "phone">
+                    <span class = "shouji">
+                        <svg class="icon" aria-hidden="true" color="#333" font-size="30px">
+                            <use xlink:href="#icon-shouji"></use>
+                        </svg>
+                    </span>
+                    <input class = "shouji_num" type="text" placeholder = "手机号码" onkeyup = "this.value=this.value.replace(/[^\d]/g,'');" maxlength="11"/>
+                    <span class = "hide1">手机号码不能为空！</span>
+                </div>
+
+                <div class = "pic">
+                    <span class = "tupian">
+                        <svg class="icon" aria-hidden="true" color="#333" font-size ="20px">
+                            <use xlink:href="#icon-ecurityCode"></use>
+                        </svg>
+                    </span>
+                    <input class = "pic_num" type="text " placeholder = "图片验证码">
+                    <span class = "code1">
+
+                    </span>
+                </div>
+                <span class = "hide2">验证码错误</span>
+
+                 <div class = "yanzheng">
+                    <span class = "yanzheng_pic">
+                        <svg class="icon" aria-hidden="true" color="#333" font-size ="20px">
+                            <use xlink:href="#icon-shoujiyanzheng"></use>
+                        </svg>
+                    </span>
+                    <input class = "yanzheng_num" type="text " placeholder = "短信验证码">
+                    <span class = "code2">获取验证码</span>
+                    <span class = "hide3">手机验证码错误</span>
+                </div>
+                <!-- 新增密码 -->
+                <div class = "password">
+                    <input type="password" class = "mima1" placeholder = "密码">
+                    <span >长度在8~16之间，必须包含字母和数字</span>
+                </div>
+                <div class = "confirm">
+                    <input type="password" class = "mima2" placeholder = "确认密码">
+                    <span>两次密码不一致</span>
+                </div>
+
+
+
+                <div class ="accept">
+                    <input type="checkbox" checkde = "checked" class = "check">
+                    <span class= "text">已阅读并同意用户服务条款和隐私政策</span>
+                </div>
+
+                <p class= "reg">
+                    <button>注册</button>
+                </p>
+
+                <p class = "opt">
+                    <a href="login.html">已有账号直接登录</a>
+                    <a href="login.html">推荐第三方登陆</a>
+                </p>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+       <!-- 底部 -->
+       <div class = "footer">
+            <div class = "box">
+                <ul class = "ul1">
+                    <li><a href="http://www.tcl.com/group/companyInfo/index">关于TCL</a></li>
+                    <li><a href="http://www.tcl.com/group/societyDuty/index">社会责任</a></li>
+                    <li><a href="http://www.tcl.com/group/investors/index">投资者关系</a></li>
+                    <li><a href="http://www.tcl.com/group/news/index">新闻中心</a></li>
+                    <li><a href="http://www.tcl.com/dealer/toLogin">经销商之家</a></li>
+                </ul><br/>
+                <div class = "foot">©2010-2016 TCL CORPORATION All Rights Reserved. <a href="http://www.tcl.com/frontshow/content/getContent/bf9d8fe2ec834c178f7bd2ba2272adfa">使用条款</a> TCL集团股份有限公司版权所有 粤ICP备05040863号</div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
